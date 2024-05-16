@@ -1,4 +1,6 @@
-typedef size_t;
+#include <stdio.h>
+#include <stdlib.h>
 
-
-void *realloc(void *ptr, size_t size);
+int main(void){
+    printf("hello world");
+}

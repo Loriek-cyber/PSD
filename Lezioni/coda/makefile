@@ -1,8 +1,8 @@
 int: list.o main.o item_int.o
-	gcc -Wall list.o item_int.o main.o -o list.exe
+	gcc -Wall list.o item_int.o main.o -o list.out
 
 string: list.o main.o item_string.o
-	gcc list.o item_string.o main.o -o list.exe
+	gcc list.o item_string.o main.o -o list.out
 
 song: list.o main.o item_song.o song.o
 	gcc list.o main.o item_song.o song.o -o list.exe
